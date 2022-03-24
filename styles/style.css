@@ -326,6 +326,9 @@
 
 .column-heading {
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .footer__author {
@@ -341,9 +344,29 @@
 .footer__column-link{
   text-decoration: none;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__social-link {
   text-decoration: none;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__info-links{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social-icon {
+  margin: 0 10px;
+  width: 16px;
+  height: 16px;
 }
