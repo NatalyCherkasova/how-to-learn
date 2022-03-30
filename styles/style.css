@@ -27,13 +27,13 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__subtitle {
   margin: 0 auto;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   line-height: 25px;
   font-size: 18px;
   width: 388px;
@@ -66,14 +66,17 @@
   background-color: #2f80ed;
 }
 
-.logo_place_header{
-  position: absolute;
+.logo {
   width: 183px;
+  z-index: 1;
+}
+
+.logo_place_header {
+  position: absolute;
   height: 32px;
   background-image: url(../images/logo_place_header.svg);
   top: 30px;
   left: 64px;
-  z-index: 1;
 }
 
 .description{
@@ -279,9 +282,7 @@
 }
 
 .logo_place_footer{
-  width: 183px;
   height: 35px;
-  z-index: 1;
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -301,7 +302,7 @@
   flex-direction: column;
 }
 
-.column-heading {
+.footer__column-heading {
   margin: 0 auto;
   color: white;
   line-height: 30px;
