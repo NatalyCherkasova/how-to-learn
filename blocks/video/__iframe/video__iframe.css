@@ -1,9 +1,5 @@
 .video__iframe {
-  margin: 50px auto 0;
-  width: 1050px;
-  height: 326px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 2;
-  position: relative;
+  width: 515px;
+  height: 386px;
+  border: none;
 }
